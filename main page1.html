@@ -1,0 +1,46 @@
+<html>
+	<head><title>ansuman motivational</title>
+	
+	</head>
+	<body>
+		<h1>welcome dear! how are you? fine? answer please</h1>
+		<h3>write yes or no only it is case sensitive so write in lower case only</h3>
+			<input id="check1">
+			<br>
+			<button id="btn" onclick="Refer()">click after choosing</button>
+			<p id="text"></p>
+			<p id="consult"></p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/j2_wUgFBzd4?si=zYlI9vKQjPd9yjN1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</body>
+	<script>
+		function Refer(){
+			answer1= document.getElementById('check1');
+			a= true;
+			answer=document.getElementById("consult")
+			text= document.getElementById("text");
+			text.innerHTML='the day you realise you are better than others you will succeed anyway you will try again and agian and no matter what happens will not stop trying and try again and again. remember one day we all will succeed.';
+			if (answer1.value == "yes" | answer.value == "YES"){
+				alert("congrats! just stay happy always. there is a message for you! just look at the bottom of the page!");
+			}
+			else{
+				alert("just read the text and feel better! i have a message for you at the bottom of the page.");
+			};
+		};
+	</script>
+	<style>
+		body{
+			margin: 50px 0 0 0;
+			background-color: 0000;
+			color: white;
+		}
+		input{
+			width: 100%;
+			height: 20%;
+			font-size:48px;
+		}
+		button{
+			width: 100%;
+			height: 20%;
+		}
+	</style>
+</html>
